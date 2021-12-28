@@ -21,7 +21,8 @@ Imports:
   survival,
   survminer,
   tidyr,
-  readr
+  readr,
+  wesanderson
 Suggests:
   knitr,
   rmarkdown

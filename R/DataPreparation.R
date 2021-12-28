@@ -56,15 +56,13 @@ kaplanMeierPlotPreparationDT <- function(targetIds,
                                          directories,
                                          kaplanMeierDataCsv){
   unionAcrossDatabases <- lapply(directories, function(directory){
-    if(exists(paste0(gsub("\\\\",
-                   '/',directory), "/", kaplanMeierDataCsv))){
     timeToEventTable <- data.table::fread(paste0(gsub("\\\\",
                                           '/',directory), "/", kaplanMeierDataCsv))  %>%
       subset(
         target_id %in% targetIds &
           outcome_id %in% outcomeIds
       )
-    }
+
   })
   data.table::rbindlist(unionAcrossDatabases)
 }

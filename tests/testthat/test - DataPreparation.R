@@ -1,6 +1,7 @@
 library(testthat)
 
 test_that("Unzipper", {
+
   dir <- "C:/Users/Alex/D/projects/Regeneron/ariadne/dataForTests/zipTest"
   zipDir <- "C:/Users/Alex/D/projects/Regeneron/ariadne/dataForTests"
   expect_true(!dir.exists(dir))
@@ -10,12 +11,14 @@ test_that("Unzipper", {
 
   )
   expect_true(dir.exists(dir))
+  unlink(dir)
+
 })
 
 
 
 test_that("kaplanMeierPlotPreparationDT", {
-  dirs <- list.dirs(path = "C:/Users/Alex/D/projects/Regeneron/ariadne/dataForTests",
+  dirs <- list.dirs(path = "C:/Users/Alex/D/projects/Regeneron/ariadne/dataForTests/KMTest",
                     full.names = T,
                     recursive = F)
 
@@ -33,6 +36,8 @@ test_that("kaplanMeierPlotPreparationDT", {
  ), NA)
  expect_type(out, 'list')
  expect_true(is.data.frame(out))
- expect_gte(nrow(out), 0)
+ expect_gte(nrow(out), 1)
 
 })
+
+
