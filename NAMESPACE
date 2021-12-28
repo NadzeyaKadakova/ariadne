@@ -2,3 +2,4 @@
 
 export(kaplanMeierPlotPreparationDT)
 export(unzipper)
+importFrom(magrittr,"%>%")

@@ -4,7 +4,12 @@
 \alias{kaplanMeierPlotPreparationDT}
 \title{Prepare data to KM plotting}
 \usage{
-kaplanMeierPlotPreparationDT(targetIds, outcomeIds, directories)
+kaplanMeierPlotPreparationDT(
+  targetIds,
+  outcomeIds,
+  directories,
+  kaplanMeierDataCsv
+)
 }
 \arguments{
 \item{targetIds}{target cohort ids to filter}

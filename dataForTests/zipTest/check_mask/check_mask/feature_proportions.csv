@@ -1,0 +1,290 @@
+feature_cohort_definition_id,window_id,cohort_id,total_count,feature_count,mean,sd,window_start,window_end,window_type,feature_name,covariate_id,covariate_name,analysis_id,database_id
+201,1,102,158,30,0,0,0,365,overlap,Symptomatic progression,201001,Cohort during day 0 through 365 days overlap the index: Symptomatic progression,10000,CDWBordeaux
+201,3,102003032,152,12,0,0,731,999999,start,Symptomatic progression,201003,Cohort during day 731 through 999999 days start the index: Symptomatic progression,10000,CDWBordeaux
+201,1,102003092,152,30,0,0,0,365,overlap,Symptomatic progression,201001,Cohort during day 0 through 365 days overlap the index: Symptomatic progression,10000,CDWBordeaux
+201,2,102003212,151,-5,0,0,366,730,start,Symptomatic progression,201002,Cohort during day 366 through 730 days start the index: Symptomatic progression,10000,CDWBordeaux
+201,2,102003382,151,-5,0,0,366,730,start,Symptomatic progression,201002,Cohort during day 366 through 730 days start the index: Symptomatic progression,10000,CDWBordeaux
+201,3,102000011,143,13,0,0,731,999999,start,Symptomatic progression,201003,Cohort during day 731 through 999999 days start the index: Symptomatic progression,10000,CDWBordeaux
+201,1,102003382,151,29,0,0,0,365,overlap,Symptomatic progression,201001,Cohort during day 0 through 365 days overlap the index: Symptomatic progression,10000,CDWBordeaux
+201,3,102003382,151,12,0,0,731,999999,start,Symptomatic progression,201003,Cohort during day 731 through 999999 days start the index: Symptomatic progression,10000,CDWBordeaux
+201,3,102003212,151,13,0,0,731,999999,start,Symptomatic progression,201003,Cohort during day 731 through 999999 days start the index: Symptomatic progression,10000,CDWBordeaux
+201,2,102003092,152,-5,0,0,366,730,start,Symptomatic progression,201002,Cohort during day 366 through 730 days start the index: Symptomatic progression,10000,CDWBordeaux
+201,2,102003032,152,-5,0,0,366,730,start,Symptomatic progression,201002,Cohort during day 366 through 730 days start the index: Symptomatic progression,10000,CDWBordeaux
+201,3,102003092,152,12,0,0,731,999999,start,Symptomatic progression,201003,Cohort during day 731 through 999999 days start the index: Symptomatic progression,10000,CDWBordeaux
+201,2,102,158,-5,0,0,366,730,start,Symptomatic progression,201002,Cohort during day 366 through 730 days start the index: Symptomatic progression,10000,CDWBordeaux
+201,1,102003032,152,30,0,0,0,365,overlap,Symptomatic progression,201001,Cohort during day 0 through 365 days overlap the index: Symptomatic progression,10000,CDWBordeaux
+201,1,102003212,151,28,0,0,0,365,overlap,Symptomatic progression,201001,Cohort during day 0 through 365 days overlap the index: Symptomatic progression,10000,CDWBordeaux
+201,2,102000011,143,-5,0,0,366,730,start,Symptomatic progression,201002,Cohort during day 366 through 730 days start the index: Symptomatic progression,10000,CDWBordeaux
+201,1,102000011,143,25,0,0,0,365,overlap,Symptomatic progression,201001,Cohort during day 0 through 365 days overlap the index: Symptomatic progression,10000,CDWBordeaux
+201,3,102,158,13,0,0,731,999999,start,Symptomatic progression,201003,Cohort during day 731 through 999999 days start the index: Symptomatic progression,10000,CDWBordeaux
+202,1,102003382,151,20,0,0,0,365,overlap,Death,202001,Cohort during day 0 through 365 days overlap the index: Death,10000,CDWBordeaux
+202,3,102003382,151,20,0,0,731,999999,start,Death,202003,Cohort during day 731 through 999999 days start the index: Death,10000,CDWBordeaux
+202,1,102003092,152,22,0,0,0,365,overlap,Death,202001,Cohort during day 0 through 365 days overlap the index: Death,10000,CDWBordeaux
+202,1,102003032,152,22,0,0,0,365,overlap,Death,202001,Cohort during day 0 through 365 days overlap the index: Death,10000,CDWBordeaux
+202,2,102003212,151,11,0,0,366,730,start,Death,202002,Cohort during day 366 through 730 days start the index: Death,10000,CDWBordeaux
+202,1,102000011,143,19,0,0,0,365,overlap,Death,202001,Cohort during day 0 through 365 days overlap the index: Death,10000,CDWBordeaux
+202,2,102003092,152,11,0,0,366,730,start,Death,202002,Cohort during day 366 through 730 days start the index: Death,10000,CDWBordeaux
+202,3,102,158,20,0,0,731,999999,start,Death,202003,Cohort during day 731 through 999999 days start the index: Death,10000,CDWBordeaux
+202,2,102003032,152,11,0,0,366,730,start,Death,202002,Cohort during day 366 through 730 days start the index: Death,10000,CDWBordeaux
+202,2,102003382,151,10,0,0,366,730,start,Death,202002,Cohort during day 366 through 730 days start the index: Death,10000,CDWBordeaux
+202,1,102003212,151,20,0,0,0,365,overlap,Death,202001,Cohort during day 0 through 365 days overlap the index: Death,10000,CDWBordeaux
+202,1,102,158,22,0,0,0,365,overlap,Death,202001,Cohort during day 0 through 365 days overlap the index: Death,10000,CDWBordeaux
+202,3,102003092,152,16,0,0,731,999999,start,Death,202003,Cohort during day 731 through 999999 days start the index: Death,10000,CDWBordeaux
+202,2,102000011,143,11,0,0,366,730,start,Death,202002,Cohort during day 366 through 730 days start the index: Death,10000,CDWBordeaux
+202,3,102003032,152,16,0,0,731,999999,start,Death,202003,Cohort during day 731 through 999999 days start the index: Death,10000,CDWBordeaux
+202,3,102003212,151,20,0,0,731,999999,start,Death,202003,Cohort during day 731 through 999999 days start the index: Death,10000,CDWBordeaux
+202,3,102000011,143,20,0,0,731,999999,start,Death,202003,Cohort during day 731 through 999999 days start the index: Death,10000,CDWBordeaux
+202,2,102,158,11,0,0,366,730,start,Death,202002,Cohort during day 366 through 730 days start the index: Death,10000,CDWBordeaux
+203,1,102003382,151,19,0,0,0,365,overlap,Treatment initiation,203001,Cohort during day 0 through 365 days overlap the index: Treatment initiation,10000,CDWBordeaux
+203,1,102000011,143,17,0,0,0,365,overlap,Treatment initiation,203001,Cohort during day 0 through 365 days overlap the index: Treatment initiation,10000,CDWBordeaux
+203,3,102,158,-5,0,0,731,999999,start,Treatment initiation,203003,Cohort during day 731 through 999999 days start the index: Treatment initiation,10000,CDWBordeaux
+203,2,102003382,151,-5,0,0,366,730,start,Treatment initiation,203002,Cohort during day 366 through 730 days start the index: Treatment initiation,10000,CDWBordeaux
+203,2,102003092,152,-5,0,0,366,730,start,Treatment initiation,203002,Cohort during day 366 through 730 days start the index: Treatment initiation,10000,CDWBordeaux
+203,2,102003212,151,-5,0,0,366,730,start,Treatment initiation,203002,Cohort during day 366 through 730 days start the index: Treatment initiation,10000,CDWBordeaux
+203,3,102000011,143,-5,0,0,731,999999,start,Treatment initiation,203003,Cohort during day 731 through 999999 days start the index: Treatment initiation,10000,CDWBordeaux
+203,1,102003092,152,20,0,0,0,365,overlap,Treatment initiation,203001,Cohort during day 0 through 365 days overlap the index: Treatment initiation,10000,CDWBordeaux
+203,1,102003212,151,19,0,0,0,365,overlap,Treatment initiation,203001,Cohort during day 0 through 365 days overlap the index: Treatment initiation,10000,CDWBordeaux
+203,1,102,158,20,0,0,0,365,overlap,Treatment initiation,203001,Cohort during day 0 through 365 days overlap the index: Treatment initiation,10000,CDWBordeaux
+203,3,102003032,152,-5,0,0,731,999999,start,Treatment initiation,203003,Cohort during day 731 through 999999 days start the index: Treatment initiation,10000,CDWBordeaux
+203,1,102003032,152,20,0,0,0,365,overlap,Treatment initiation,203001,Cohort during day 0 through 365 days overlap the index: Treatment initiation,10000,CDWBordeaux
+203,3,102003212,151,-5,0,0,731,999999,start,Treatment initiation,203003,Cohort during day 731 through 999999 days start the index: Treatment initiation,10000,CDWBordeaux
+203,2,102000011,143,-5,0,0,366,730,start,Treatment initiation,203002,Cohort during day 366 through 730 days start the index: Treatment initiation,10000,CDWBordeaux
+203,2,102,158,-5,0,0,366,730,start,Treatment initiation,203002,Cohort during day 366 through 730 days start the index: Treatment initiation,10000,CDWBordeaux
+203,2,102003032,152,-5,0,0,366,730,start,Treatment initiation,203002,Cohort during day 366 through 730 days start the index: Treatment initiation,10000,CDWBordeaux
+203,3,102003382,151,-5,0,0,731,999999,start,Treatment initiation,203003,Cohort during day 731 through 999999 days start the index: Treatment initiation,10000,CDWBordeaux
+203,3,102003092,152,-5,0,0,731,999999,start,Treatment initiation,203003,Cohort during day 731 through 999999 days start the index: Treatment initiation,10000,CDWBordeaux
+204,3,102003212,151,-5,0,0,731,999999,start,Curative treatment,204003,Cohort during day 731 through 999999 days start the index: Curative treatment,10000,CDWBordeaux
+204,1,102,158,-5,0,0,0,365,overlap,Curative treatment,204001,Cohort during day 0 through 365 days overlap the index: Curative treatment,10000,CDWBordeaux
+204,3,102003032,152,-5,0,0,731,999999,start,Curative treatment,204003,Cohort during day 731 through 999999 days start the index: Curative treatment,10000,CDWBordeaux
+204,1,102003382,151,-5,0,0,0,365,overlap,Curative treatment,204001,Cohort during day 0 through 365 days overlap the index: Curative treatment,10000,CDWBordeaux
+204,1,102003092,152,-5,0,0,0,365,overlap,Curative treatment,204001,Cohort during day 0 through 365 days overlap the index: Curative treatment,10000,CDWBordeaux
+204,1,102003212,151,-5,0,0,0,365,overlap,Curative treatment,204001,Cohort during day 0 through 365 days overlap the index: Curative treatment,10000,CDWBordeaux
+204,3,102003092,152,-5,0,0,731,999999,start,Curative treatment,204003,Cohort during day 731 through 999999 days start the index: Curative treatment,10000,CDWBordeaux
+204,1,102003032,152,-5,0,0,0,365,overlap,Curative treatment,204001,Cohort during day 0 through 365 days overlap the index: Curative treatment,10000,CDWBordeaux
+204,3,102,158,-5,0,0,731,999999,start,Curative treatment,204003,Cohort during day 731 through 999999 days start the index: Curative treatment,10000,CDWBordeaux
+204,3,102000011,143,-5,0,0,731,999999,start,Curative treatment,204003,Cohort during day 731 through 999999 days start the index: Curative treatment,10000,CDWBordeaux
+204,1,102000011,143,-5,0,0,0,365,overlap,Curative treatment,204001,Cohort during day 0 through 365 days overlap the index: Curative treatment,10000,CDWBordeaux
+204,3,102003382,151,-5,0,0,731,999999,start,Curative treatment,204003,Cohort during day 731 through 999999 days start the index: Curative treatment,10000,CDWBordeaux
+205,2,102003212,151,-5,0,0,366,730,start,Palliative treatment,205002,Cohort during day 366 through 730 days start the index: Palliative treatment,10000,CDWBordeaux
+205,1,102003092,152,19,0,0,0,365,overlap,Palliative treatment,205001,Cohort during day 0 through 365 days overlap the index: Palliative treatment,10000,CDWBordeaux
+205,2,102003092,152,-5,0,0,366,730,start,Palliative treatment,205002,Cohort during day 366 through 730 days start the index: Palliative treatment,10000,CDWBordeaux
+205,2,102,158,-5,0,0,366,730,start,Palliative treatment,205002,Cohort during day 366 through 730 days start the index: Palliative treatment,10000,CDWBordeaux
+205,1,102003032,152,19,0,0,0,365,overlap,Palliative treatment,205001,Cohort during day 0 through 365 days overlap the index: Palliative treatment,10000,CDWBordeaux
+205,1,102003382,151,18,0,0,0,365,overlap,Palliative treatment,205001,Cohort during day 0 through 365 days overlap the index: Palliative treatment,10000,CDWBordeaux
+205,3,102003382,151,-5,0,0,731,999999,start,Palliative treatment,205003,Cohort during day 731 through 999999 days start the index: Palliative treatment,10000,CDWBordeaux
+205,3,102,158,-5,0,0,731,999999,start,Palliative treatment,205003,Cohort during day 731 through 999999 days start the index: Palliative treatment,10000,CDWBordeaux
+205,2,102003382,151,-5,0,0,366,730,start,Palliative treatment,205002,Cohort during day 366 through 730 days start the index: Palliative treatment,10000,CDWBordeaux
+205,2,102000011,143,-5,0,0,366,730,start,Palliative treatment,205002,Cohort during day 366 through 730 days start the index: Palliative treatment,10000,CDWBordeaux
+205,3,102003032,152,-5,0,0,731,999999,start,Palliative treatment,205003,Cohort during day 731 through 999999 days start the index: Palliative treatment,10000,CDWBordeaux
+205,1,102003212,151,18,0,0,0,365,overlap,Palliative treatment,205001,Cohort during day 0 through 365 days overlap the index: Palliative treatment,10000,CDWBordeaux
+205,3,102000011,143,-5,0,0,731,999999,start,Palliative treatment,205003,Cohort during day 731 through 999999 days start the index: Palliative treatment,10000,CDWBordeaux
+205,3,102003092,152,-5,0,0,731,999999,start,Palliative treatment,205003,Cohort during day 731 through 999999 days start the index: Palliative treatment,10000,CDWBordeaux
+205,2,102003032,152,-5,0,0,366,730,start,Palliative treatment,205002,Cohort during day 366 through 730 days start the index: Palliative treatment,10000,CDWBordeaux
+205,3,102003212,151,-5,0,0,731,999999,start,Palliative treatment,205003,Cohort during day 731 through 999999 days start the index: Palliative treatment,10000,CDWBordeaux
+205,1,102000011,143,16,0,0,0,365,overlap,Palliative treatment,205001,Cohort during day 0 through 365 days overlap the index: Palliative treatment,10000,CDWBordeaux
+205,1,102,158,19,0,0,0,365,overlap,Palliative treatment,205001,Cohort during day 0 through 365 days overlap the index: Palliative treatment,10000,CDWBordeaux
+206,2,102003212,151,36,0,0,366,730,start,Hospitalization,206002,Cohort during day 366 through 730 days start the index: Hospitalization,10000,CDWBordeaux
+206,1,102,158,125,0,0,0,365,overlap,Hospitalization,206001,Cohort during day 0 through 365 days overlap the index: Hospitalization,10000,CDWBordeaux
+206,1,102003382,151,118,0,0,0,365,overlap,Hospitalization,206001,Cohort during day 0 through 365 days overlap the index: Hospitalization,10000,CDWBordeaux
+206,1,102003092,152,123,0,0,0,365,overlap,Hospitalization,206001,Cohort during day 0 through 365 days overlap the index: Hospitalization,10000,CDWBordeaux
+206,3,102003092,152,53,0,0,731,999999,start,Hospitalization,206003,Cohort during day 731 through 999999 days start the index: Hospitalization,10000,CDWBordeaux
+206,2,102003092,152,37,0,0,366,730,start,Hospitalization,206002,Cohort during day 366 through 730 days start the index: Hospitalization,10000,CDWBordeaux
+206,3,102003032,152,53,0,0,731,999999,start,Hospitalization,206003,Cohort during day 731 through 999999 days start the index: Hospitalization,10000,CDWBordeaux
+206,3,102003212,151,56,0,0,731,999999,start,Hospitalization,206003,Cohort during day 731 through 999999 days start the index: Hospitalization,10000,CDWBordeaux
+206,1,102000011,143,110,0,0,0,365,overlap,Hospitalization,206001,Cohort during day 0 through 365 days overlap the index: Hospitalization,10000,CDWBordeaux
+206,3,102003382,151,55,0,0,731,999999,start,Hospitalization,206003,Cohort during day 731 through 999999 days start the index: Hospitalization,10000,CDWBordeaux
+206,1,102003212,151,120,0,0,0,365,overlap,Hospitalization,206001,Cohort during day 0 through 365 days overlap the index: Hospitalization,10000,CDWBordeaux
+206,2,102,158,38,0,0,366,730,start,Hospitalization,206002,Cohort during day 366 through 730 days start the index: Hospitalization,10000,CDWBordeaux
+206,3,102,158,58,0,0,731,999999,start,Hospitalization,206003,Cohort during day 731 through 999999 days start the index: Hospitalization,10000,CDWBordeaux
+206,2,102000011,143,38,0,0,366,730,start,Hospitalization,206002,Cohort during day 366 through 730 days start the index: Hospitalization,10000,CDWBordeaux
+206,1,102003032,152,123,0,0,0,365,overlap,Hospitalization,206001,Cohort during day 0 through 365 days overlap the index: Hospitalization,10000,CDWBordeaux
+206,2,102003032,152,37,0,0,366,730,start,Hospitalization,206002,Cohort during day 366 through 730 days start the index: Hospitalization,10000,CDWBordeaux
+206,3,102000011,143,58,0,0,731,999999,start,Hospitalization,206003,Cohort during day 731 through 999999 days start the index: Hospitalization,10000,CDWBordeaux
+206,2,102003382,151,38,0,0,366,730,start,Hospitalization,206002,Cohort during day 366 through 730 days start the index: Hospitalization,10000,CDWBordeaux
+207,1,102000011,143,18,0,0,0,365,overlap,ER visit,207001,Cohort during day 0 through 365 days overlap the index: ER visit,10000,CDWBordeaux
+207,1,102003092,152,18,0,0,0,365,overlap,ER visit,207001,Cohort during day 0 through 365 days overlap the index: ER visit,10000,CDWBordeaux
+207,2,102000011,143,7,0,0,366,730,start,ER visit,207002,Cohort during day 366 through 730 days start the index: ER visit,10000,CDWBordeaux
+207,3,102003382,151,9,0,0,731,999999,start,ER visit,207003,Cohort during day 731 through 999999 days start the index: ER visit,10000,CDWBordeaux
+207,3,102000011,143,10,0,0,731,999999,start,ER visit,207003,Cohort during day 731 through 999999 days start the index: ER visit,10000,CDWBordeaux
+207,1,102,158,18,0,0,0,365,overlap,ER visit,207001,Cohort during day 0 through 365 days overlap the index: ER visit,10000,CDWBordeaux
+207,1,102003212,151,18,0,0,0,365,overlap,ER visit,207001,Cohort during day 0 through 365 days overlap the index: ER visit,10000,CDWBordeaux
+207,3,102003212,151,10,0,0,731,999999,start,ER visit,207003,Cohort during day 731 through 999999 days start the index: ER visit,10000,CDWBordeaux
+207,2,102,158,7,0,0,366,730,start,ER visit,207002,Cohort during day 366 through 730 days start the index: ER visit,10000,CDWBordeaux
+207,2,102003032,152,7,0,0,366,730,start,ER visit,207002,Cohort during day 366 through 730 days start the index: ER visit,10000,CDWBordeaux
+207,1,102003382,151,17,0,0,0,365,overlap,ER visit,207001,Cohort during day 0 through 365 days overlap the index: ER visit,10000,CDWBordeaux
+207,3,102003032,152,10,0,0,731,999999,start,ER visit,207003,Cohort during day 731 through 999999 days start the index: ER visit,10000,CDWBordeaux
+207,2,102003092,152,7,0,0,366,730,start,ER visit,207002,Cohort during day 366 through 730 days start the index: ER visit,10000,CDWBordeaux
+207,3,102,158,10,0,0,731,999999,start,ER visit,207003,Cohort during day 731 through 999999 days start the index: ER visit,10000,CDWBordeaux
+207,1,102003032,152,18,0,0,0,365,overlap,ER visit,207001,Cohort during day 0 through 365 days overlap the index: ER visit,10000,CDWBordeaux
+207,2,102003212,151,7,0,0,366,730,start,ER visit,207002,Cohort during day 366 through 730 days start the index: ER visit,10000,CDWBordeaux
+207,2,102003382,151,6,0,0,366,730,start,ER visit,207002,Cohort during day 366 through 730 days start the index: ER visit,10000,CDWBordeaux
+207,3,102003092,152,10,0,0,731,999999,start,ER visit,207003,Cohort during day 731 through 999999 days start the index: ER visit,10000,CDWBordeaux
+301,1,102003032,152,34,0,0,0,365,overlap,301,301001,Cohort during day 0 through 365 days overlap the index: 301,10000,CDWBordeaux
+301,1,102000011,143,24,0,0,0,365,overlap,301,301001,Cohort during day 0 through 365 days overlap the index: 301,10000,CDWBordeaux
+301,1,102,158,34,0,0,0,365,overlap,301,301001,Cohort during day 0 through 365 days overlap the index: 301,10000,CDWBordeaux
+301,1,102003382,151,34,0,0,0,365,overlap,301,301001,Cohort during day 0 through 365 days overlap the index: 301,10000,CDWBordeaux
+301,1,102003092,152,34,0,0,0,365,overlap,301,301001,Cohort during day 0 through 365 days overlap the index: 301,10000,CDWBordeaux
+301,1,102003212,151,33,0,0,0,365,overlap,301,301001,Cohort during day 0 through 365 days overlap the index: 301,10000,CDWBordeaux
+303,1,102,158,6,0,0,0,365,overlap,303,303001,Cohort during day 0 through 365 days overlap the index: 303,10000,CDWBordeaux
+303,1,102000011,143,6,0,0,0,365,overlap,303,303001,Cohort during day 0 through 365 days overlap the index: 303,10000,CDWBordeaux
+303,1,102003382,151,6,0,0,0,365,overlap,303,303001,Cohort during day 0 through 365 days overlap the index: 303,10000,CDWBordeaux
+303,1,102003212,151,6,0,0,0,365,overlap,303,303001,Cohort during day 0 through 365 days overlap the index: 303,10000,CDWBordeaux
+304,1,102003032,152,-5,0,0,0,365,overlap,304,304001,Cohort during day 0 through 365 days overlap the index: 304,10000,CDWBordeaux
+304,1,102003092,152,-5,0,0,0,365,overlap,304,304001,Cohort during day 0 through 365 days overlap the index: 304,10000,CDWBordeaux
+304,1,102,158,-5,0,0,0,365,overlap,304,304001,Cohort during day 0 through 365 days overlap the index: 304,10000,CDWBordeaux
+304,1,102003382,151,-5,0,0,0,365,overlap,304,304001,Cohort during day 0 through 365 days overlap the index: 304,10000,CDWBordeaux
+304,1,102003212,151,-5,0,0,0,365,overlap,304,304001,Cohort during day 0 through 365 days overlap the index: 304,10000,CDWBordeaux
+304,1,102000011,143,-5,0,0,0,365,overlap,304,304001,Cohort during day 0 through 365 days overlap the index: 304,10000,CDWBordeaux
+307,1,102003032,152,33,0,0,0,365,overlap,307,307001,Cohort during day 0 through 365 days overlap the index: 307,10000,CDWBordeaux
+307,1,102003212,151,32,0,0,0,365,overlap,307,307001,Cohort during day 0 through 365 days overlap the index: 307,10000,CDWBordeaux
+307,1,102003092,152,33,0,0,0,365,overlap,307,307001,Cohort during day 0 through 365 days overlap the index: 307,10000,CDWBordeaux
+307,1,102,158,33,0,0,0,365,overlap,307,307001,Cohort during day 0 through 365 days overlap the index: 307,10000,CDWBordeaux
+307,1,102000011,143,23,0,0,0,365,overlap,307,307001,Cohort during day 0 through 365 days overlap the index: 307,10000,CDWBordeaux
+307,1,102003382,151,33,0,0,0,365,overlap,307,307001,Cohort during day 0 through 365 days overlap the index: 307,10000,CDWBordeaux
+309,1,102003212,151,6,0,0,0,365,overlap,309,309001,Cohort during day 0 through 365 days overlap the index: 309,10000,CDWBordeaux
+309,1,102,158,6,0,0,0,365,overlap,309,309001,Cohort during day 0 through 365 days overlap the index: 309,10000,CDWBordeaux
+309,1,102000011,143,6,0,0,0,365,overlap,309,309001,Cohort during day 0 through 365 days overlap the index: 309,10000,CDWBordeaux
+309,1,102003382,151,6,0,0,0,365,overlap,309,309001,Cohort during day 0 through 365 days overlap the index: 309,10000,CDWBordeaux
+314,1,102,158,43,0,0,0,365,overlap,314,314001,Cohort during day 0 through 365 days overlap the index: 314,10000,CDWBordeaux
+314,1,102003212,151,40,0,0,0,365,overlap,314,314001,Cohort during day 0 through 365 days overlap the index: 314,10000,CDWBordeaux
+314,1,102003092,152,37,0,0,0,365,overlap,314,314001,Cohort during day 0 through 365 days overlap the index: 314,10000,CDWBordeaux
+314,1,102003032,152,37,0,0,0,365,overlap,314,314001,Cohort during day 0 through 365 days overlap the index: 314,10000,CDWBordeaux
+314,1,102000011,143,43,0,0,0,365,overlap,314,314001,Cohort during day 0 through 365 days overlap the index: 314,10000,CDWBordeaux
+314,1,102003382,151,43,0,0,0,365,overlap,314,314001,Cohort during day 0 through 365 days overlap the index: 314,10000,CDWBordeaux
+318,1,102003092,152,-5,0,0,0,365,overlap,318,318001,Cohort during day 0 through 365 days overlap the index: 318,10000,CDWBordeaux
+318,1,102003212,151,-5,0,0,0,365,overlap,318,318001,Cohort during day 0 through 365 days overlap the index: 318,10000,CDWBordeaux
+318,1,102,158,-5,0,0,0,365,overlap,318,318001,Cohort during day 0 through 365 days overlap the index: 318,10000,CDWBordeaux
+318,1,102003032,152,-5,0,0,0,365,overlap,318,318001,Cohort during day 0 through 365 days overlap the index: 318,10000,CDWBordeaux
+318,1,102003382,151,-5,0,0,0,365,overlap,318,318001,Cohort during day 0 through 365 days overlap the index: 318,10000,CDWBordeaux
+318,1,102000011,143,-5,0,0,0,365,overlap,318,318001,Cohort during day 0 through 365 days overlap the index: 318,10000,CDWBordeaux
+321,1,102000011,143,7,0,0,0,365,overlap,321,321001,Cohort during day 0 through 365 days overlap the index: 321,10000,CDWBordeaux
+321,1,102003382,151,7,0,0,0,365,overlap,321,321001,Cohort during day 0 through 365 days overlap the index: 321,10000,CDWBordeaux
+321,1,102003092,152,7,0,0,0,365,overlap,321,321001,Cohort during day 0 through 365 days overlap the index: 321,10000,CDWBordeaux
+321,1,102,158,7,0,0,0,365,overlap,321,321001,Cohort during day 0 through 365 days overlap the index: 321,10000,CDWBordeaux
+321,1,102003032,152,7,0,0,0,365,overlap,321,321001,Cohort during day 0 through 365 days overlap the index: 321,10000,CDWBordeaux
+322,1,102,158,119,0,0,0,365,overlap,322,322001,Cohort during day 0 through 365 days overlap the index: 322,10000,CDWBordeaux
+322,1,102003092,152,113,0,0,0,365,overlap,322,322001,Cohort during day 0 through 365 days overlap the index: 322,10000,CDWBordeaux
+322,1,102000011,143,109,0,0,0,365,overlap,322,322001,Cohort during day 0 through 365 days overlap the index: 322,10000,CDWBordeaux
+322,1,102003212,151,118,0,0,0,365,overlap,322,322001,Cohort during day 0 through 365 days overlap the index: 322,10000,CDWBordeaux
+322,1,102003382,151,113,0,0,0,365,overlap,322,322001,Cohort during day 0 through 365 days overlap the index: 322,10000,CDWBordeaux
+322,1,102003032,152,113,0,0,0,365,overlap,322,322001,Cohort during day 0 through 365 days overlap the index: 322,10000,CDWBordeaux
+323,1,102003032,152,35,0,0,0,365,overlap,323,323001,Cohort during day 0 through 365 days overlap the index: 323,10000,CDWBordeaux
+323,1,102003382,151,34,0,0,0,365,overlap,323,323001,Cohort during day 0 through 365 days overlap the index: 323,10000,CDWBordeaux
+323,1,102003212,151,35,0,0,0,365,overlap,323,323001,Cohort during day 0 through 365 days overlap the index: 323,10000,CDWBordeaux
+323,1,102003092,152,35,0,0,0,365,overlap,323,323001,Cohort during day 0 through 365 days overlap the index: 323,10000,CDWBordeaux
+323,1,102,158,35,0,0,0,365,overlap,323,323001,Cohort during day 0 through 365 days overlap the index: 323,10000,CDWBordeaux
+323,1,102000011,143,30,0,0,0,365,overlap,323,323001,Cohort during day 0 through 365 days overlap the index: 323,10000,CDWBordeaux
+327,1,102003032,152,52,0,0,0,365,overlap,327,327001,Cohort during day 0 through 365 days overlap the index: 327,10000,CDWBordeaux
+327,1,102003092,152,52,0,0,0,365,overlap,327,327001,Cohort during day 0 through 365 days overlap the index: 327,10000,CDWBordeaux
+327,3,102003032,152,-5,0,0,731,999999,start,327,327003,Cohort during day 731 through 999999 days start the index: 327,10000,CDWBordeaux
+327,1,102,158,52,0,0,0,365,overlap,327,327001,Cohort during day 0 through 365 days overlap the index: 327,10000,CDWBordeaux
+327,1,102000011,143,45,0,0,0,365,overlap,327,327001,Cohort during day 0 through 365 days overlap the index: 327,10000,CDWBordeaux
+327,3,102003092,152,-5,0,0,731,999999,start,327,327003,Cohort during day 731 through 999999 days start the index: 327,10000,CDWBordeaux
+327,3,102003382,151,5,0,0,731,999999,start,327,327003,Cohort during day 731 through 999999 days start the index: 327,10000,CDWBordeaux
+327,3,102003212,151,-5,0,0,731,999999,start,327,327003,Cohort during day 731 through 999999 days start the index: 327,10000,CDWBordeaux
+327,1,102003212,151,51,0,0,0,365,overlap,327,327001,Cohort during day 0 through 365 days overlap the index: 327,10000,CDWBordeaux
+327,3,102000011,143,5,0,0,731,999999,start,327,327003,Cohort during day 731 through 999999 days start the index: 327,10000,CDWBordeaux
+327,1,102003382,151,48,0,0,0,365,overlap,327,327001,Cohort during day 0 through 365 days overlap the index: 327,10000,CDWBordeaux
+327,3,102,158,5,0,0,731,999999,start,327,327003,Cohort during day 731 through 999999 days start the index: 327,10000,CDWBordeaux
+328,3,102003032,152,5,0,0,731,999999,start,328,328003,Cohort during day 731 through 999999 days start the index: 328,10000,CDWBordeaux
+328,1,102003092,152,7,0,0,0,365,overlap,328,328001,Cohort during day 0 through 365 days overlap the index: 328,10000,CDWBordeaux
+328,2,102,158,-5,0,0,366,730,start,328,328002,Cohort during day 366 through 730 days start the index: 328,10000,CDWBordeaux
+328,2,102003382,151,-5,0,0,366,730,start,328,328002,Cohort during day 366 through 730 days start the index: 328,10000,CDWBordeaux
+328,2,102000011,143,-5,0,0,366,730,start,328,328002,Cohort during day 366 through 730 days start the index: 328,10000,CDWBordeaux
+328,3,102003382,151,5,0,0,731,999999,start,328,328003,Cohort during day 731 through 999999 days start the index: 328,10000,CDWBordeaux
+328,1,102003212,151,7,0,0,0,365,overlap,328,328001,Cohort during day 0 through 365 days overlap the index: 328,10000,CDWBordeaux
+328,1,102003382,151,6,0,0,0,365,overlap,328,328001,Cohort during day 0 through 365 days overlap the index: 328,10000,CDWBordeaux
+328,3,102003092,152,5,0,0,731,999999,start,328,328003,Cohort during day 731 through 999999 days start the index: 328,10000,CDWBordeaux
+328,2,102003032,152,-5,0,0,366,730,start,328,328002,Cohort during day 366 through 730 days start the index: 328,10000,CDWBordeaux
+328,3,102003212,151,5,0,0,731,999999,start,328,328003,Cohort during day 731 through 999999 days start the index: 328,10000,CDWBordeaux
+328,2,102003092,152,-5,0,0,366,730,start,328,328002,Cohort during day 366 through 730 days start the index: 328,10000,CDWBordeaux
+328,1,102000011,143,6,0,0,0,365,overlap,328,328001,Cohort during day 0 through 365 days overlap the index: 328,10000,CDWBordeaux
+328,2,102003212,151,-5,0,0,366,730,start,328,328002,Cohort during day 366 through 730 days start the index: 328,10000,CDWBordeaux
+328,1,102003032,152,7,0,0,0,365,overlap,328,328001,Cohort during day 0 through 365 days overlap the index: 328,10000,CDWBordeaux
+328,3,102,158,5,0,0,731,999999,start,328,328003,Cohort during day 731 through 999999 days start the index: 328,10000,CDWBordeaux
+328,1,102,158,7,0,0,0,365,overlap,328,328001,Cohort during day 0 through 365 days overlap the index: 328,10000,CDWBordeaux
+328,3,102000011,143,5,0,0,731,999999,start,328,328003,Cohort during day 731 through 999999 days start the index: 328,10000,CDWBordeaux
+329,1,102,158,-5,0,0,0,365,overlap,329,329001,Cohort during day 0 through 365 days overlap the index: 329,10000,CDWBordeaux
+329,1,102003092,152,-5,0,0,0,365,overlap,329,329001,Cohort during day 0 through 365 days overlap the index: 329,10000,CDWBordeaux
+329,3,102003032,152,-5,0,0,731,999999,start,329,329003,Cohort during day 731 through 999999 days start the index: 329,10000,CDWBordeaux
+329,1,102003212,151,-5,0,0,0,365,overlap,329,329001,Cohort during day 0 through 365 days overlap the index: 329,10000,CDWBordeaux
+329,2,102003382,151,-5,0,0,366,730,start,329,329002,Cohort during day 366 through 730 days start the index: 329,10000,CDWBordeaux
+329,3,102003382,151,-5,0,0,731,999999,start,329,329003,Cohort during day 731 through 999999 days start the index: 329,10000,CDWBordeaux
+329,2,102,158,-5,0,0,366,730,start,329,329002,Cohort during day 366 through 730 days start the index: 329,10000,CDWBordeaux
+329,3,102003212,151,-5,0,0,731,999999,start,329,329003,Cohort during day 731 through 999999 days start the index: 329,10000,CDWBordeaux
+329,2,102000011,143,-5,0,0,366,730,start,329,329002,Cohort during day 366 through 730 days start the index: 329,10000,CDWBordeaux
+329,3,102000011,143,-5,0,0,731,999999,start,329,329003,Cohort during day 731 through 999999 days start the index: 329,10000,CDWBordeaux
+329,1,102003382,151,-5,0,0,0,365,overlap,329,329001,Cohort during day 0 through 365 days overlap the index: 329,10000,CDWBordeaux
+329,2,102003092,152,-5,0,0,366,730,start,329,329002,Cohort during day 366 through 730 days start the index: 329,10000,CDWBordeaux
+329,2,102003212,151,-5,0,0,366,730,start,329,329002,Cohort during day 366 through 730 days start the index: 329,10000,CDWBordeaux
+329,3,102003092,152,-5,0,0,731,999999,start,329,329003,Cohort during day 731 through 999999 days start the index: 329,10000,CDWBordeaux
+329,3,102,158,-5,0,0,731,999999,start,329,329003,Cohort during day 731 through 999999 days start the index: 329,10000,CDWBordeaux
+329,1,102003032,152,-5,0,0,0,365,overlap,329,329001,Cohort during day 0 through 365 days overlap the index: 329,10000,CDWBordeaux
+329,1,102000011,143,-5,0,0,0,365,overlap,329,329001,Cohort during day 0 through 365 days overlap the index: 329,10000,CDWBordeaux
+329,2,102003032,152,-5,0,0,366,730,start,329,329002,Cohort during day 366 through 730 days start the index: 329,10000,CDWBordeaux
+330,2,102003212,151,-5,0,0,366,730,start,330,330002,Cohort during day 366 through 730 days start the index: 330,10000,CDWBordeaux
+330,3,102003092,152,-5,0,0,731,999999,start,330,330003,Cohort during day 731 through 999999 days start the index: 330,10000,CDWBordeaux
+330,1,102003382,151,5,0,0,0,365,overlap,330,330001,Cohort during day 0 through 365 days overlap the index: 330,10000,CDWBordeaux
+330,3,102003212,151,-5,0,0,731,999999,start,330,330003,Cohort during day 731 through 999999 days start the index: 330,10000,CDWBordeaux
+330,2,102000011,143,-5,0,0,366,730,start,330,330002,Cohort during day 366 through 730 days start the index: 330,10000,CDWBordeaux
+330,2,102003092,152,-5,0,0,366,730,start,330,330002,Cohort during day 366 through 730 days start the index: 330,10000,CDWBordeaux
+330,3,102,158,-5,0,0,731,999999,start,330,330003,Cohort during day 731 through 999999 days start the index: 330,10000,CDWBordeaux
+330,1,102003092,152,-5,0,0,0,365,overlap,330,330001,Cohort during day 0 through 365 days overlap the index: 330,10000,CDWBordeaux
+330,3,102000011,143,-5,0,0,731,999999,start,330,330003,Cohort during day 731 through 999999 days start the index: 330,10000,CDWBordeaux
+330,1,102,158,5,0,0,0,365,overlap,330,330001,Cohort during day 0 through 365 days overlap the index: 330,10000,CDWBordeaux
+330,1,102003032,152,-5,0,0,0,365,overlap,330,330001,Cohort during day 0 through 365 days overlap the index: 330,10000,CDWBordeaux
+330,3,102003382,151,-5,0,0,731,999999,start,330,330003,Cohort during day 731 through 999999 days start the index: 330,10000,CDWBordeaux
+330,2,102003032,152,-5,0,0,366,730,start,330,330002,Cohort during day 366 through 730 days start the index: 330,10000,CDWBordeaux
+330,2,102003382,151,-5,0,0,366,730,start,330,330002,Cohort during day 366 through 730 days start the index: 330,10000,CDWBordeaux
+330,3,102003032,152,-5,0,0,731,999999,start,330,330003,Cohort during day 731 through 999999 days start the index: 330,10000,CDWBordeaux
+330,2,102,158,-5,0,0,366,730,start,330,330002,Cohort during day 366 through 730 days start the index: 330,10000,CDWBordeaux
+330,1,102003212,151,5,0,0,0,365,overlap,330,330001,Cohort during day 0 through 365 days overlap the index: 330,10000,CDWBordeaux
+330,1,102000011,143,5,0,0,0,365,overlap,330,330001,Cohort during day 0 through 365 days overlap the index: 330,10000,CDWBordeaux
+331,1,102003382,151,66,0,0,0,365,overlap,331,331001,Cohort during day 0 through 365 days overlap the index: 331,10000,CDWBordeaux
+331,2,102003032,152,5,0,0,366,730,start,331,331002,Cohort during day 366 through 730 days start the index: 331,10000,CDWBordeaux
+331,1,102000011,143,64,0,0,0,365,overlap,331,331001,Cohort during day 0 through 365 days overlap the index: 331,10000,CDWBordeaux
+331,1,102003212,151,69,0,0,0,365,overlap,331,331001,Cohort during day 0 through 365 days overlap the index: 331,10000,CDWBordeaux
+331,3,102003092,152,12,0,0,731,999999,start,331,331003,Cohort during day 731 through 999999 days start the index: 331,10000,CDWBordeaux
+331,2,102003382,151,5,0,0,366,730,start,331,331002,Cohort during day 366 through 730 days start the index: 331,10000,CDWBordeaux
+331,1,102003092,152,70,0,0,0,365,overlap,331,331001,Cohort during day 0 through 365 days overlap the index: 331,10000,CDWBordeaux
+331,3,102003032,152,12,0,0,731,999999,start,331,331003,Cohort during day 731 through 999999 days start the index: 331,10000,CDWBordeaux
+331,3,102003212,151,12,0,0,731,999999,start,331,331003,Cohort during day 731 through 999999 days start the index: 331,10000,CDWBordeaux
+331,3,102000011,143,13,0,0,731,999999,start,331,331003,Cohort during day 731 through 999999 days start the index: 331,10000,CDWBordeaux
+331,1,102,158,71,0,0,0,365,overlap,331,331001,Cohort during day 0 through 365 days overlap the index: 331,10000,CDWBordeaux
+331,1,102003032,152,70,0,0,0,365,overlap,331,331001,Cohort during day 0 through 365 days overlap the index: 331,10000,CDWBordeaux
+331,2,102003092,152,5,0,0,366,730,start,331,331002,Cohort during day 366 through 730 days start the index: 331,10000,CDWBordeaux
+331,3,102,158,13,0,0,731,999999,start,331,331003,Cohort during day 731 through 999999 days start the index: 331,10000,CDWBordeaux
+331,2,102003212,151,5,0,0,366,730,start,331,331002,Cohort during day 366 through 730 days start the index: 331,10000,CDWBordeaux
+331,3,102003382,151,12,0,0,731,999999,start,331,331003,Cohort during day 731 through 999999 days start the index: 331,10000,CDWBordeaux
+331,2,102,158,5,0,0,366,730,start,331,331002,Cohort during day 366 through 730 days start the index: 331,10000,CDWBordeaux
+331,2,102000011,143,5,0,0,366,730,start,331,331002,Cohort during day 366 through 730 days start the index: 331,10000,CDWBordeaux
+333,2,102003212,151,-5,0,0,366,730,start,333,333002,Cohort during day 366 through 730 days start the index: 333,10000,CDWBordeaux
+333,1,102000011,143,5,0,0,0,365,overlap,333,333001,Cohort during day 0 through 365 days overlap the index: 333,10000,CDWBordeaux
+333,1,102003382,151,7,0,0,0,365,overlap,333,333001,Cohort during day 0 through 365 days overlap the index: 333,10000,CDWBordeaux
+333,1,102003212,151,7,0,0,0,365,overlap,333,333001,Cohort during day 0 through 365 days overlap the index: 333,10000,CDWBordeaux
+333,3,102,158,-5,0,0,731,999999,start,333,333003,Cohort during day 731 through 999999 days start the index: 333,10000,CDWBordeaux
+333,1,102003092,152,7,0,0,0,365,overlap,333,333001,Cohort during day 0 through 365 days overlap the index: 333,10000,CDWBordeaux
+333,1,102003032,152,7,0,0,0,365,overlap,333,333001,Cohort during day 0 through 365 days overlap the index: 333,10000,CDWBordeaux
+333,1,102,158,7,0,0,0,365,overlap,333,333001,Cohort during day 0 through 365 days overlap the index: 333,10000,CDWBordeaux
+333,3,102000011,143,-5,0,0,731,999999,start,333,333003,Cohort during day 731 through 999999 days start the index: 333,10000,CDWBordeaux
+333,2,102003092,152,-5,0,0,366,730,start,333,333002,Cohort during day 366 through 730 days start the index: 333,10000,CDWBordeaux
+333,3,102003032,152,-5,0,0,731,999999,start,333,333003,Cohort during day 731 through 999999 days start the index: 333,10000,CDWBordeaux
+333,2,102003382,151,-5,0,0,366,730,start,333,333002,Cohort during day 366 through 730 days start the index: 333,10000,CDWBordeaux
+333,2,102,158,-5,0,0,366,730,start,333,333002,Cohort during day 366 through 730 days start the index: 333,10000,CDWBordeaux
+333,3,102003212,151,-5,0,0,731,999999,start,333,333003,Cohort during day 731 through 999999 days start the index: 333,10000,CDWBordeaux
+333,2,102003032,152,-5,0,0,366,730,start,333,333002,Cohort during day 366 through 730 days start the index: 333,10000,CDWBordeaux
+333,2,102000011,143,-5,0,0,366,730,start,333,333002,Cohort during day 366 through 730 days start the index: 333,10000,CDWBordeaux
+333,3,102003092,152,-5,0,0,731,999999,start,333,333003,Cohort during day 731 through 999999 days start the index: 333,10000,CDWBordeaux
+333,3,102003382,151,-5,0,0,731,999999,start,333,333003,Cohort during day 731 through 999999 days start the index: 333,10000,CDWBordeaux
+338,1,102003212,151,9,0,0,0,365,overlap,338,338001,Cohort during day 0 through 365 days overlap the index: 338,10000,CDWBordeaux
+338,1,102,158,9,0,0,0,365,overlap,338,338001,Cohort during day 0 through 365 days overlap the index: 338,10000,CDWBordeaux
+338,3,102003212,151,-5,0,0,731,999999,start,338,338003,Cohort during day 731 through 999999 days start the index: 338,10000,CDWBordeaux
+338,1,102003382,151,-5,0,0,0,365,overlap,338,338001,Cohort during day 0 through 365 days overlap the index: 338,10000,CDWBordeaux
+338,3,102,158,-5,0,0,731,999999,start,338,338003,Cohort during day 731 through 999999 days start the index: 338,10000,CDWBordeaux
+338,1,102003032,152,9,0,0,0,365,overlap,338,338001,Cohort during day 0 through 365 days overlap the index: 338,10000,CDWBordeaux
+338,3,102003092,152,-5,0,0,731,999999,start,338,338003,Cohort during day 731 through 999999 days start the index: 338,10000,CDWBordeaux
+338,3,102003032,152,-5,0,0,731,999999,start,338,338003,Cohort during day 731 through 999999 days start the index: 338,10000,CDWBordeaux
+338,3,102000011,143,-5,0,0,731,999999,start,338,338003,Cohort during day 731 through 999999 days start the index: 338,10000,CDWBordeaux
+338,1,102000011,143,9,0,0,0,365,overlap,338,338001,Cohort during day 0 through 365 days overlap the index: 338,10000,CDWBordeaux
+338,3,102003382,151,-5,0,0,731,999999,start,338,338003,Cohort during day 731 through 999999 days start the index: 338,10000,CDWBordeaux
+338,1,102003092,152,9,0,0,0,365,overlap,338,338001,Cohort during day 0 through 365 days overlap the index: 338,10000,CDWBordeaux

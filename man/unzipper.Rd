@@ -7,7 +7,7 @@
 unzipper(directoryZipFiles, absolutePathDirectoryToCreate)
 }
 \arguments{
-\item{directoryZipFiles}{directiry with zip files}
+\item{directoryZipFiles}{directory with zip files}
 
 \item{absolutePathDirectoryToCreate}{path to directory where to put unzipped files
 if doesn't exist folder will be created}
