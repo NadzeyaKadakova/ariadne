@@ -30,10 +30,10 @@ test_that("gridKMplot", {
                       xlab = "Time in years",
                       ggtheme = ggplot2::theme_bw(),
                       gridGroup2 = outcome_id,
-                      gridGroup1 = target_id,
+                      gridGroup1 = database_id,
                       savePlots = TRUE,
                       directoryToSave = d,
-                      censor = TRUE,
+                      censor = F,
                       conf.int.style = "ribbon"
 
   )
@@ -45,7 +45,9 @@ test_that("gridKMplot", {
     pattern = "\\.jpeg",
     full.names = F
     )
+
   expect_true(
-    length(jpegs > 0)
+    length(jpegs > 1)
   )
 })
+

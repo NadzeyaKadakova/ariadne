@@ -11,7 +11,7 @@ test_that("Unzipper", {
 
   )
   expect_true(dir.exists(dir))
-  unlink(dir)
+  unlink(dir, recursive = TRUE)
 
 })
 

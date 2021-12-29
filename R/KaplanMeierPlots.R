@@ -40,13 +40,11 @@ gridKMplot <- function(
       ncensor.plot = FALSE,
       conf.int.style = conf.int.style,
       censor = censor
-    ) + ggplot2::facet_grid(gridGroup1 ~ gridGroup2)
+    ) + ggplot2::facet_grid(outcome_id
+                            ~ database_id)
     if(savePlots){
-    ggplot2::ggsave(paste0(gsub("\\\\",
-                       '/',
-                       directoryToSave), "/",
-                  gridGroup1, "_", year, "_", gridGroup2,
-                  ".jpeg"),
+      setwd(directoryToSave)
+    ggplot2::ggsave(paste0("Grid","_", year, "_.jpeg"),
            width = 24, height = 24, units = "cm")
     }
   })
