@@ -1,0 +1,3 @@
+getThisPackageName <- function() {
+  return("ariadne")
+}
