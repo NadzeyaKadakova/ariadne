@@ -64,3 +64,29 @@ test_that("Covariate Data Preparation", {
   expect_equal(length(unique(out$cohort_id)), 2)
 
 })
+
+
+test_that("Prepare Feature Proportion Data", {
+  dirs <- list.dirs(path = "C:/Users/Alex/D/projects/PIONEER-Odysseus/UnzippedData",
+                    full.names = T,
+                    recursive = F)
+  dt <- dirs[c(1, 2)]
+
+  out <- ariadne::prepareFeatureProportionData(
+    cohortIds = c(103, 112),
+    listOfDirectories = dt,
+    filterWindowIds = c(2, 3)
+  )
+  expect_error(ariadne::prepareFeatureProportionData(
+    cohortIds = c(103, 112),
+    listOfDirectories = dt,
+    filterWindowIds = c(2, 3)
+  ), NA)
+
+  expect_true(is.data.frame(out))
+
+  expect_gte(nrow(out), 1)
+
+  expect_equal(length(unique(out$cohort_id)), 2)
+
+})

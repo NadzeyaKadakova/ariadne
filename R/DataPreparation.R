@@ -113,4 +113,23 @@ prepareCovariatesData <- function(listOfDirectories,
   return(data.table::rbindlist(listOfDF))
 }
 
+#' @export
+#'
+prepareFeatureProportionData <- function(listOfDirectories,
+                                        filterWindowIds = NULL,
+                                        cohortIds){
+  listOfDF <- lapply(listOfDirectories, function(directory){
+    fp <- data.table::fread(paste0(gsub("\\\\",
+                                               '/',directory), "/", "feature_proportions.csv"))
+    featureProportionsConsolidated <- fp %>%
+      subset(cohort_id  %in% c(cohortIds) & mean > 0
+      )
+    if(!is.null(filterWindowIds)){
+      featureProportionsConsolidated <- subset(featureProportionsConsolidated,
+                                               window_id %in% filterWindowIds)
+    }
+    })
+  return(data.table::rbindlist(listOfDF))
+}
+
 

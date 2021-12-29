@@ -3,6 +3,7 @@
 export(gridKMplot)
 export(kaplanMeierPlotPreparationDT)
 export(prepareCovariatesData)
+export(prepareFeatureProportionData)
 export(unzipper)
 importFrom(data.table,":=")
 importFrom(magrittr,"%>%")
