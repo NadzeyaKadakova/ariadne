@@ -66,3 +66,51 @@ kaplanMeierPlotPreparationDT <- function(targetIds,
   })
   data.table::rbindlist(unionAcrossDatabases)
 }
+
+
+#' Prepare covariate data
+#'
+#' @param listOfDirectories directories where stored covariate.csv and covariate_value.csv
+#'
+#' @param filterWindowIds window_ids to filter
+#'
+#' @param cohortIds target cohort ids to filter
+#'
+#' @returns data.table dataframe
+#'
+#' @importFrom magrittr %>%
+#'
+#' @importFrom data.table :=
+#'
+#' @export
+#'
+prepareCovariatesData <- function(listOfDirectories,
+                              filterWindowIds = NULL,
+                              cohortIds){
+  listOfDF <- lapply(listOfDirectories, function(directory){
+    covariate <- data.table::fread(paste0(gsub("\\\\",
+                                               '/',directory), "/", "covariate.csv"))
+    covariate_value <- data.table::fread(paste0(gsub("\\\\",
+                                                     '/',directory), "/", "covariate_value.csv"))
+    covariatesForPlotting <- data.table::merge.data.table(x = covariate,
+                                                          y = covariate_value,
+                                                          by = "covariate_id") %>%
+      subset(cohort_id  %in% c(cohortIds) & mean > 0
+      )
+    if(!is.null(filterWindowIds)){
+      covariatesForPlotting[,
+                            window_id := data.table::fcase(
+                              covariate_id %% 10 == 4 , 4,
+                              covariate_id %% 10 == 3 , 3,
+                              covariate_id %% 10 == 2 , 2,
+                              covariate_id %% 10 == 1 , 1
+                            )]
+
+      covariatesForPlotting <- subset(covariatesForPlotting, window_id %in% filterWindowIds)
+    }
+
+  })
+  return(data.table::rbindlist(listOfDF))
+}
+
+
