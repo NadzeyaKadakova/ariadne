@@ -1,15 +1,5 @@
 #' Creates grid Kaplan-Meier Plot
 #'
-#' @description
-#'
-#'
-#'
-#'
-#' @param
-#'
-#' @param
-#'
-#'
 #' @export
 #'
 gridKMplot <- function(

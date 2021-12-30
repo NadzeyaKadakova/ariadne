@@ -1,3 +1,5 @@
+#' @title pullUpConceptNames
+#'
 #' @param connection DatabaseConnector::connect instance
 #' @param cdmDatabaseSchema available cdm db
 #' @param covariateIds vector of standard concept ids from covariate table
