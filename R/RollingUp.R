@@ -25,7 +25,8 @@ rollUpConditions <- function(connection,
   )
 
   rolledUpConditionTable <- DatabaseConnector::querySql(connection = connection,
-                                                    sql = sqlRendered)
+                                                    sql = sqlRendered,
+                                                    snakeCaseToCamelCase = TRUE)
 }
 #' Roll Up Drug categories
 #'
@@ -60,5 +61,6 @@ rollUpDrugs <- function(connection,
   )
 
   rolledUpConditionTable <- DatabaseConnector::querySql(connection = connection,
-                                                        sql = sqlRendered)
+                                                        sql = sqlRendered,
+                                                        snakeCaseToCamelCase = TRUE)
 }

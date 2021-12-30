@@ -49,8 +49,8 @@ test_that("Roll Up Condition", {
   )
   expect_equal(dim(t), c(2, 4))
 
-  expect_equal(t$CATEGORY_NAME[1], "Respiratory disease")
+  expect_equal(t$categoryName[1], "Respiratory disease")
 
-  expect_equal(t$CATEGORY_NAME[2], "Mental disease")
+  expect_equal(t$categoryName[2], "Mental disease")
 
 })

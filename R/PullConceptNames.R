@@ -4,9 +4,7 @@
 #' @export
 pullUpConceptNames <- function(connection,
                                cdmDatabaseSchema,
-                               covariateIds
-) {
-
+                               covariateIds) {
   packageName <- getThisPackageName()
 
   sqlFileName <- "PullUpConceptNames.sql"
@@ -23,6 +21,9 @@ pullUpConceptNames <- function(connection,
     covariateIds = covariateIds
   )
 
-  pulledUpConceptNames <- DatabaseConnector::querySql(connection = connection,
-                                                        sql = sqlRendered)
+  pulledUpConceptNames <- DatabaseConnector::querySql(
+    connection = connection,
+    sql = sqlRendered,
+    snakeCaseToCamelCase = TRUE
+  )
 }
