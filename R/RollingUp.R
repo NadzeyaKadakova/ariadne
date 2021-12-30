@@ -1,3 +1,7 @@
+#' Roll Up Conditions categories
+#'
+#' @description creates tables with condition categories
+#'
 #' @export
 rollUpConditions <- function(connection,
                              cdmDatabaseSchema,
@@ -23,7 +27,10 @@ rollUpConditions <- function(connection,
   rolledUpConditionTable <- DatabaseConnector::querySql(connection = connection,
                                                     sql = sqlRendered)
 }
-
+#' Roll Up Drug categories
+#'
+#' @description creates tables with drug categories
+#'
 #' @param connection DatabaseConnector::connect instance
 #' @param cdmDatabaseSchema available cdm db
 #' @param drugConceptIds vector of standard concept ids
