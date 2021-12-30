@@ -4,7 +4,7 @@ with drug AS (SELECT
        concept_name AS category_name,
        concept_id AS category_id
   FROM @cdmDatabaseSchema.concept
-  WHERE vocabulary_id='ATC' AND concept_class_id= '@ATC' -- 'ATC 2nd'
+  WHERE vocabulary_id='ATC' AND concept_class_id= '@ATC'
 )
 SELECT distinct
   concept_id AS concept_id_2, concept_name as drug_name,
