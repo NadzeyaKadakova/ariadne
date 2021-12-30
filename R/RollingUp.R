@@ -24,12 +24,15 @@ rollUpConditions <- function(connection,
                                                     sql = sqlRendered)
 }
 
-
-
+#' @param connection DatabaseConnector::connect instance
+#' @param cdmDatabaseSchema available cdm db
+#' @param drugConceptIds vector of standard concept ids
+#' @param `ATC 1st` Boolean argument if TRUE - rolling up to ACT 1st otherwise ACT 2st
 #' @export
 rollUpDrugs <- function(connection,
                         cdmDatabaseSchema,
-                        drugConceptIds
+                        drugConceptIds,
+                        `ATC 1st` = TRUE # ATC 2 by default
 ) {
 
   packageName <- getThisPackageName()
@@ -45,7 +48,8 @@ rollUpDrugs <- function(connection,
   sqlRendered <- SqlRender::render(
     sql = sql,
     cdmDatabaseSchema = cdmDatabaseSchema,
-    drugConceptIds = drugConceptIds
+    drugConceptIds = drugConceptIds,
+    ATC = data.table::fifelse(`ATC 1st`, 'ATC 1st', 'ATC 2nd')
   )
 
   rolledUpConditionTable <- DatabaseConnector::querySql(connection = connection,

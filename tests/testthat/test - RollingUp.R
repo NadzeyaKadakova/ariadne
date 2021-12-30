@@ -17,16 +17,19 @@ test_that("Roll Up Drugs", {
   t <- ariadne::rollUpDrugs(
     connection = conn,
     cdmDatabaseSchema = cdmDatabaseSchema,
-    drugConceptIds = ids
+    drugConceptIds = ids,
+    `ATC 1st` = FALSE
   )
   expect_equal(dim(t), c(2, 4))
+
+
 
 
 })
 
 
 test_that("Roll Up Condition", {
-  ids <- c(4182210, #dimentia
+  ids <- c(4182210, #dementia
            255848   #pneumonia
   )
   cdmDatabaseSchema = "cdm_531"
@@ -42,9 +45,12 @@ test_that("Roll Up Condition", {
   t <- ariadne::rollUpConditions(
     connection = conn,
     cdmDatabaseSchema = cdmDatabaseSchema,
-    drugConceptIds = ids
+    conditionsIds = ids
   )
   expect_equal(dim(t), c(2, 4))
 
+  expect_equal(t$CATEGORY_NAME[1], "Respiratory disease")
+
+  expect_equal(t$CATEGORY_NAME[2], "Mental disease")
 
 })
