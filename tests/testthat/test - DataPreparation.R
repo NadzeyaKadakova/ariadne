@@ -90,3 +90,30 @@ test_that("Prepare Feature Proportion Data", {
   expect_equal(length(unique(out$cohort_id)), 2)
 
 })
+
+
+test_that("Prepare Feature Proportion Data", {
+  dirs <- list.dirs(path = "C:/Users/Alex/D/projects/PIONEER-Odysseus/UnzippedData",
+                    full.names = T,
+                    recursive = F)
+  dt <- dirs[c(1, 2)]
+
+  out <- ariadne::prepareCovariatesData(
+    cohortIds = c(103, 112),
+    listOfDirectories = dt,
+    filterWindowIds = c(2, 3)
+  )
+
+
+  out <- ariadne::prepareCovariatesDataToPlotting(
+    preparedCovariatesData = out,
+    cohortIds = c(103, 112)
+  )
+
+  #expect_true(is.data.frame(out))
+
+  expect_gte(nrow(out), 1)
+
+  expect_equal(length(unique(out$cohort_id)), 2)
+
+})

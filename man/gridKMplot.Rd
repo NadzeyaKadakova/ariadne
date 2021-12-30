@@ -20,5 +20,5 @@ gridKMplot(
 )
 }
 \description{
-
+Creates grid Kaplan-Meier Plot
 }

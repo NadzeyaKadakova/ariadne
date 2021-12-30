@@ -132,4 +132,36 @@ prepareFeatureProportionData <- function(listOfDirectories,
   return(data.table::rbindlist(listOfDF))
 }
 
+#' Prepare covariate data for comparative analysis
+#'
+#' @param preparedCovariatesData csv or data table form prepareCovariatesData function
+#'
+#'
+#' @param targetCogortId1 target cohort id 1
+#'
+#' #' @param targetCogortId2  target cohort id 2
+#'
+#'
+#' @returns  merged data table with calculated SMD (SMD column)
+#'
+#' @importFrom data.table :=
+#'
+#' @export
+#'
+prepareCovariatesDataToPlotting <- function(preparedCovariatesData,
+                                            cohortIds
+){
+
+  dataToPlot <- data.table::merge.data.table(x = subset(preparedCovariatesData,
+                                                        cohort_id == cohortIds[2]),
+                                             y = subset(preparedCovariatesData,
+                                                        cohort_id == cohortIds[1]),
+                                             by=c("covariate_id","database_id"),
+                                             all=FALSE)
+
+    dataToPlot[,
+               SMD := (mean.y - mean.x)/sqrt(mean.y*(1-mean.y)+ (mean.x*(1-mean.x)))/2
+              ]
+
+}
 

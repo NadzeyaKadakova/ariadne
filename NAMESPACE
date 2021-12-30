@@ -3,6 +3,7 @@
 export(gridKMplot)
 export(kaplanMeierPlotPreparationDT)
 export(prepareCovariatesData)
+export(prepareCovariatesDataToPlotting)
 export(prepareFeatureProportionData)
 export(pullUpConceptNames)
 export(rollUpConditions)
