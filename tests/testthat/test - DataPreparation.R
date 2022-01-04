@@ -114,6 +114,6 @@ test_that("Prepare Feature Proportion Data", {
 
   expect_gte(nrow(out), 1)
 
-  expect_equal(length(unique(out$cohort_id)), 2)
+  expect_true("SMD" %in% names(out))
 
 })

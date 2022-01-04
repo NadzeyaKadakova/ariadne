@@ -157,11 +157,9 @@ prepareCovariatesDataToPlotting <- function(preparedCovariatesData,
                                              y = subset(preparedCovariatesData,
                                                         cohort_id == cohortIds[1]),
                                              by=c("covariate_id","database_id"),
-                                             all=FALSE)
-
+                                             all=FALSE) %>% data.table::setDT()
     dataToPlot[,
                SMD := (mean.y - mean.x)/sqrt(mean.y*(1-mean.y)+ (mean.x*(1-mean.x)))/2
               ]
 
 }
-
