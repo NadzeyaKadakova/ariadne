@@ -128,6 +128,8 @@ prepareFeatureProportionData <- function(listOfDirectories,
     if(!is.null(filterWindowIds)){
       featureProportionsConsolidated <- subset(featureProportionsConsolidated,
                                                window_id %in% filterWindowIds)
+    } else{
+      featureProportionsConsolidated
     }
     })
   return(data.table::rbindlist(listOfDF))
