@@ -107,7 +107,8 @@ prepareCovariatesData <- function(listOfDirectories,
                             )]
 
       covariatesForPlotting <- subset(covariatesForPlotting, window_id %in% filterWindowIds)
-    }
+    } else
+      covariatesForPlotting
 
   })
   return(data.table::rbindlist(listOfDF))
@@ -139,7 +140,7 @@ prepareFeatureProportionData <- function(listOfDirectories,
 #'
 #' @param targetCogortId1 target cohort id 1
 #'
-#' #' @param targetCogortId2  target cohort id 2
+#' @param targetCogortId2  target cohort id 2
 #'
 #'
 #' @returns  merged data table with calculated SMD (SMD column)
@@ -159,7 +160,6 @@ prepareCovariatesDataToPlotting <- function(preparedCovariatesData,
                                              by=c("covariate_id","database_id"),
                                              all=FALSE) %>% data.table::setDT()
     dataToPlot[,
-               SMD := (mean.y - mean.x)/sqrt(mean.y*(1-mean.y)+ (mean.x*(1-mean.x)))/2
+               SMD := (mean.y - mean.x)/sqrt(mean.y*(1-mean.y)+ (mean.x*(1-mean.x))/2)
               ]
-
 }
