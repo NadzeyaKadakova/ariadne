@@ -165,3 +165,21 @@ prepareCovariatesDataToPlotting <- function(preparedCovariatesData,
                SMD := (mean.y - mean.x)/sqrt(mean.y*(1-mean.y)+ (mean.x*(1-mean.x))/2)
               ]
 }
+
+
+#' @export
+prepareStrataData <- function(listOfDirectories,
+                              filterWindowIds = NULL,
+                              cohortIds,
+                              mode){
+  featureData <- prepareFeatureProportionData(listOfDirectories,
+                                              filterWindowIds = filterWindowIds,
+                                              cohortIds)
+  filterStarta <- chooseStrata(mode)
+
+  featureData <- featureData %>%
+    filter(feature_name %in% filterStarta)
+
+  featureData <- cleanDatabaseNames(featureData)
+  return(featureData)
+}
